@@ -21,3 +21,38 @@
   --shadow-cyan: 0 0 10px var(--neon-cyan), 0 0 20px var(--neon-cyan);
   --shadow-box: 0 0 20px rgba(255, 0, 255, 0.1);
 }
+
+.text-pink {
+  color: var(--neon-pink);
+}
+.text-cyan {
+  color: var(--neon-cyan);
+}
+.text-white {
+  color: #ffffff;
+}
+.text-gray {
+  color: var(--gray-text);
+}
+
+.bg-dark {
+  background-color: var(--dark-bg);
+}
+
+.neon-text-pink {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px var(--neon-pink),
+    0 0 40px var(--neon-pink);
+}
+
+.neon-text-cyan {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px var(--neon-cyan),
+    0 0 40px var(--neon-cyan);
+}
