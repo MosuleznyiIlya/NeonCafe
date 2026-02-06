@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacts | NEON CAFE</title>
+    <title>Contact | NEON CAFE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,12 +18,247 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
+    <div class="scanner-line"></div>
+
     <header class="main-header">
-      <nav class="main-nav"></nav>
+      <div class="header-container">
+        <div class="logo">
+          <i class="logo-icon">⚡</i>
+          <a href="index.html">
+            <span class="logo-text"
+              >NEON<span class="logo-accent">CAFE</span></span
+            >
+          </a>
+        </div>
+
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="menu.html" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <span class="status-indicator">
+            <span class="status-dot"></span>
+            <span class="status-text">OPEN</span>
+          </span>
+        </div>
+      </div>
     </header>
 
-    <main class="main-content"></main>
+    <main class="main-content">
+      <section class="page-header">
+        <div class="container">
+          <h1 class="page-title neon-text-pink">CONTACTS</h1>
+          <p class="page-subtitle">Reach us or book your table</p>
+        </div>
+      </section>
 
-    <footer class="main-footer"></footer>
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h2 class="info-title">
+                WHERE TO <span class="text-cyan">FIND US</span>
+              </h2>
+
+              <div class="info-blocks">
+                <div class="info-block">
+                  <div class="info-icon">📍</div>
+                  <div class="info-content">
+                    <h3>Address</h3>
+                    <p>
+                      Neon Street, 404<br />Kyiv, Ukraine<br />Cyber District
+                    </p>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <div class="info-icon">📞</div>
+                  <div class="info-content">
+                    <h3>Phone</h3>
+                    <p>+38 (099) 777-77-77<br />+38 (098) 888-88-88</p>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <div class="info-icon">✉️</div>
+                  <div class="info-content">
+                    <h3>Email</h3>
+                    <p>admin@neon.cafe<br />book@neon.cafe</p>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <div class="info-icon">🕐</div>
+                  <div class="info-content">
+                    <h3>Working Hours</h3>
+                    <p>
+                      Mon-Fri: 08:00 - 02:00<br />Sat-Sun: 24/7<br />Holidays:
+                      24/7
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-block">
+                <h3>FOLLOW US</h3>
+                <div class="social-large">
+                  <a href="#" class="social-btn">Instagram</a>
+                  <a href="#" class="social-btn">Telegram</a>
+                  <a href="#" class="social-btn">Facebook</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+              <div class="form-container">
+                <div class="form-header">
+                  <h2 class="form-title">BOOKING REQUEST</h2>
+                  <p class="form-subtitle">Reserve your server slot</p>
+                </div>
+
+                <form class="booking-form" action="#" method="POST">
+                  <div class="form-group">
+                    <label class="form-label">Name</label>
+                    <input
+                      type="text"
+                      class="form-input"
+                      placeholder="Neo_Anderson"
+                      required />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">Contact Implant (Phone)</label>
+                    <input
+                      type="tel"
+                      class="form-input"
+                      placeholder="+38 (099) 000-00-00"
+                      required />
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label class="form-label">Connection Date</label>
+                      <input type="date" class="form-input" required />
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label">Session Time</label>
+                      <select class="form-input form-select">
+                        <option>18:00 - 20:00</option>
+                        <option>20:00 - 22:00</option>
+                        <option>22:00 - 00:00</option>
+                        <option>00:00 - Closing</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">Number of Guests</label>
+                    <select class="form-input form-select">
+                      <option>1-2 persons</option>
+                      <option>3-4 persons</option>
+                      <option>5-8 persons</option>
+                      <option>8+ (Party)</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">Special Requests</label>
+                    <textarea
+                      class="form-input form-textarea"
+                      rows="4"
+                      placeholder="Need a window table with a view of the Matrix..."></textarea>
+                  </div>
+
+                  <button type="submit" class="form-submit">
+                    Initialize Booking
+                  </button>
+                </form>
+
+                <div class="form-footer">
+                  <p>⚡ Response within 15 minutes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="map-section">
+        <div class="map-container">
+          <div class="map-placeholder">
+            <div class="map-grid"></div>
+            <div class="map-marker">
+              <span class="marker-pulse"></span>
+              <span class="marker-dot"></span>
+            </div>
+            <p class="map-text">COORDINATES: 50.4501° N, 30.5234° E</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo">
+              <i class="logo-icon">⚡</i>
+              <a
+                href="https://fs3.itstep.org/api/v1/files/wUrjQ9JnZZ2MbUlDlm6fbEjQm-7_WtbR?inline=true"
+                target="_blank"
+                rel="noopener">
+                <span class="logo-text"
+                  >NEON<span class="logo-accent">CAFE</span></span
+                >
+              </a>
+            </div>
+            <p class="footer-description">
+              A place where time stops and code compiles perfectly on the first
+              try.
+            </p>
+          </div>
+
+          <div class="footer-nav">
+            <h4 class="footer-title">Navigation</h4>
+            <ul class="footer-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4 class="footer-title">Contacts</h4>
+            <ul class="footer-list">
+              <li>📍 Neon Street, 404</li>
+              <li>📞 +38 (099) 777-77-77</li>
+              <li>✉️ admin@neon.cafe</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">&copy; 2077 NEON CAFE. ALL RIGHTS RESERVED.</p>
+          <div class="system-status">
+            <span class="status-dot green"></span>
+            <span class="status-text">SYSTEM ONLINE</span>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
