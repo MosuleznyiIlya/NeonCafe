@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NEON CAFE | Cyberpunk Cafe</title>
+    <title>NEON CAFE | Cyberpunk Coffeehouse</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,15 +15,220 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/animations.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/responsive.css">
   </head>
   <body>
+    <div class="scanner-line"></div>
+
     <header class="main-header">
-      <nav class="main-nav"></nav>
+      <div class="header-container">
+        <div class="logo">
+          <i class="logo-icon">⚡</i>
+          <a href="#main">
+            <span class="logo-text"
+              >NEON<span class="logo-accent">CAFE</span></span
+            >
+          </a>
+        </div>
+
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="menu.html" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <span class="status-indicator">
+            <span class="status-dot"></span>
+            <span class="status-text">OPEN</span>
+          </span>
+        </div>
+      </div>
     </header>
 
-    <main class="main-content" id="main"></main>
+    <main class="main-content" id="main">
+      <section class="hero-section">
+        <div class="hero-bg">
+          <div class="grid-overlay"></div>
+          <div class="neon-glow pink"></div>
+          <div class="neon-glow cyan"></div>
+        </div>
 
-    <footer class="main-footer"></footer>
+        <div class="hero-content">
+          <p class="hero-subtitle">SYSTEM LOADED // VERSION 2.0.77</p>
+          <h1 class="hero-title glitch" data-text="NEON CAFE">NEON CAFE</h1>
+          <p class="hero-description">
+            Dive into the cyberpunk atmosphere. Coffee, cocktails, and coding under neon lights.
+          </p>
+          <div class="hero-buttons">
+            <a href="menu.html" class="btn btn-primary">View Menu</a>
+            <a href="contact.html" class="btn btn-secondary">Book a Table</a>
+          </div>
+        </div>
+
+        <div class="scroll-indicator">
+          <span class="scroll-arrow">↓</span>
+        </div>
+      </section>
+
+      <section class="features-section">
+        <div class="container">
+          <h2 class="section-title">
+            WHY CHOOSE <span class="text-cyan">NEON CAFE</span>
+          </h2>
+
+          <div class="features-grid">
+            <article class="feature-card">
+              <div class="feature-icon">🚀</div>
+              <h3 class="feature-title">10Gb/s Speed</h3>
+              <p class="feature-text">
+                Neon fiber connection for your projects
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">🥽</div>
+              <h3 class="feature-title">VR Zones</h3>
+              <p class="feature-text">Full immersion in the metaverse</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">☕</div>
+              <h3 class="feature-title">Cyber Coffee</h3>
+              <p class="feature-text">
+                Unique recipes with activated charcoal
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">🎵</div>
+              <h3 class="feature-title">Synthwave 24/7</h3>
+              <p class="feature-text">Legendary retro-futuristic vibes</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlight-section">
+        <div class="container">
+          <div class="highlight-content">
+            <div class="highlight-text">
+              <h2 class="highlight-title">
+                <span class="text-pink">WHERE</span> REALITY<br />
+                <span class="text-white">MEETS</span><br />
+                <span class="text-cyan">CODE</span>
+              </h2>
+              <p class="highlight-description">
+                Neon Cafe is more than just a coffeehouse. It's an access terminal to digital bliss. Our baristas are architects of flavor who use the technologies of tomorrow.
+              </p>
+              <a href="about.html" class="btn btn-outline">Learn More</a>
+            </div>
+            <div class="highlight-image">
+              <div class="image-frame">
+                <div class="corner corner-tl"></div>
+                <div class="corner corner-tr"></div>
+                <div class="corner corner-bl"></div>
+                <div class="corner corner-br"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800"
+                  alt="Neon Cafe Interior"
+                  class="highlight-img" />
+              </div>
+              <div class="image-badge">
+                <span class="badge-label">STATUS</span>
+                <span class="badge-value">OPEN 24/7</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="container">
+          <div class="cta-box">
+            <h2 class="cta-title">READY TO PLUG IN?</h2>
+            <p class="cta-text">
+              Book your table now and get a 15% cyber discount
+            </p>
+            <a href="contact.html" class="btn btn-glow">Book Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo">
+              <i class="logo-icon">⚡</i>
+              <a
+                href="https://fs3.itstep.org/api/v1/files/wUrjQ9JnZZ2MbUlDlm6fbEjQm-7_WtbR?inline=true"
+                target="_blank"
+                rel="noopener">
+                <span class="logo-text"
+                  >NEON<span class="logo-accent">CAFE</span></span
+                >
+              </a>
+            </div>
+            <p class="footer-description">
+              A place where time stops and code compiles perfectly on the first try.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Instagram">IG</a>
+              <a href="#" class="social-link" aria-label="Telegram">TG</a>
+              <a href="#" class="social-link" aria-label="GitHub">GH</a>
+            </div>
+          </div>
+
+          <div class="footer-nav">
+            <h4 class="footer-title">Navigation</h4>
+            <ul class="footer-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4 class="footer-title">Contact</h4>
+            <ul class="footer-list">
+              <li>📍 Neon Street, 404</li>
+              <li>📞 +38 (099) 777-77-77</li>
+              <li>✉️ admin@neon.cafe</li>
+            </ul>
+          </div>
+
+          <div class="footer-hours">
+            <h4 class="footer-title">Hours</h4>
+            <ul class="footer-list">
+              <li>Mon-Fri: 08:00 - 02:00</li>
+              <li>Sat-Sun: 24 hours</li>
+              <li class="highlight">Holidays: 24 hours</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">&copy; 2077 NEON CAFE. ALL RIGHTS RESERVED.</p>
+          <div class="system-status">
+            <span class="status-dot green"></span>
+            <span class="status-text">SYSTEM ONLINE</span>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
