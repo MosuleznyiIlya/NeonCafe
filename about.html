@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,12 +18,257 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
+    <div class="scanner-line"></div>
+
     <header class="main-header">
-      <nav class="main-nav"></nav>
+      <div class="header-container">
+        <div class="logo">
+          <i class="logo-icon">⚡</i>
+          <a href="index.html">
+            <span class="logo-text"
+              >NEON<span class="logo-accent">CAFE</span></span
+            >
+          </a>
+        </div>
+
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="menu.html" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link active">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <span class="status-indicator">
+            <span class="status-dot"></span>
+            <span class="status-text">OPEN</span>
+          </span>
+        </div>
+      </div>
     </header>
 
-    <main class="main-content"></main>
+    <main class="main-content">
+      <section class="page-header">
+        <div class="container">
+          <h1 class="page-title neon-text-cyan">ABOUT US</h1>
+          <p class="page-subtitle">The story of digital bliss</p>
+        </div>
+      </section>
 
-    <footer class="main-footer"></footer>
+      <section class="story-section">
+        <div class="container">
+          <div class="story-grid">
+            <div class="story-content">
+              <h2 class="story-title">
+                FROM DREAM TO <span class="text-pink">REALITY</span>
+              </h2>
+              <div class="story-text">
+                <p>
+                  Neon Cafe was born in 2075 as an experimental space for
+                  developers, designers, and creative minds. We created a place
+                  where technology meets the art of coffee.
+                </p>
+                <p>
+                  Our philosophy is simple: every drink is a code, every guest
+                  is a user, every visit is a session.
+                </p>
+                <p>
+                  We use only premium beans from cyber farms in Ethiopia and
+                  Colombia, roasted by our AI baristas with millisecond
+                  precision.
+                </p>
+              </div>
+
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <span class="stat-number">24/7</span>
+                  <span class="stat-label">Open</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">10Gb/s</span>
+                  <span class="stat-label">Wi-Fi</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">50+</span>
+                  <span class="stat-label">Drinks</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">∞</span>
+                  <span class="stat-label">Inspiration</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="story-visual">
+              <div class="visual-frame">
+                <div class="scan-line"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=600"
+                  alt="Neon Coffeehouse"
+                  class="story-img" />
+              </div>
+              <div class="visual-decorations">
+                <div class="deco-line"></div>
+                <div class="deco-line"></div>
+                <div class="deco-line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <div class="container">
+          <h2 class="section-title">OUR <span class="text-cyan">TEAM</span></h2>
+
+          <div class="team-grid">
+            <article class="team-member">
+              <div class="member-avatar">
+                <div class="avatar-ring"></div>
+                <span class="avatar-initial">A</span>
+              </div>
+              <h3 class="member-name">Alex Cyber</h3>
+              <p class="member-role">Head Barista</p>
+              <p class="member-desc">
+                Latte art master, level 99. Can draw company logos in your
+                coffee.
+              </p>
+            </article>
+
+            <article class="team-member">
+              <div class="member-avatar">
+                <div class="avatar-ring pink"></div>
+                <span class="avatar-initial">M</span>
+              </div>
+              <h3 class="member-name">Mia Neon</h3>
+              <p class="member-role">Mixologist</p>
+              <p class="member-desc">
+                Creates glowing cocktails. A true alchemist of taste.
+              </p>
+            </article>
+
+            <article class="team-member">
+              <div class="member-avatar">
+                <div class="avatar-ring cyan"></div>
+                <span class="avatar-initial">D</span>
+              </div>
+              <h3 class="member-name">Dave Pixel</h3>
+              <p class="member-role">Tech Director</p>
+              <p class="member-desc">
+                Keeps our servers and coffee machines running perfectly.
+              </p>
+            </article>
+
+            <article class="team-member">
+              <div class="member-avatar">
+                <div class="avatar-ring"></div>
+                <span class="avatar-initial">Z</span>
+              </div>
+              <h3 class="member-name">Zoe Synth</h3>
+              <p class="member-role">Interior Designer</p>
+              <p class="member-desc">
+                Responsible for the neon lighting and cyberpunk atmosphere.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="values-section">
+        <div class="container">
+          <div class="values-box">
+            <h2 class="values-title">OUR VALUES</h2>
+            <ul class="values-list">
+              <li class="value-item">
+                <span class="value-number">01</span>
+                <div class="value-content">
+                  <h3>QUALITY FIRST</h3>
+                  <p>
+                    Only premium ingredients and precise brewing technology.
+                  </p>
+                </div>
+              </li>
+              <li class="value-item">
+                <span class="value-number">02</span>
+                <div class="value-content">
+                  <h3>INNOVATION</h3>
+                  <p>
+                    Constantly exploring new flavors and visual experiences.
+                  </p>
+                </div>
+              </li>
+              <li class="value-item">
+                <span class="value-number">03</span>
+                <div class="value-content">
+                  <h3>COMMUNITY</h3>
+                  <p>We build a space for creative people and their ideas.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo">
+              <i class="logo-icon">⚡</i>
+              <a
+                href="https://fs3.itstep.org/api/v1/files/wUrjQ9JnZZ2MbUlDlm6fbEjQm-7_WtbR?inline=true"
+                target="_blank"
+                rel="noopener">
+                <span class="logo-text"
+                  >NEON<span class="logo-accent">CAFE</span></span
+                >
+              </a>
+            </div>
+            <p class="footer-description">
+              A place where time stops and code compiles perfectly on the first
+              try.
+            </p>
+          </div>
+
+          <div class="footer-nav">
+            <h4 class="footer-title">Navigation</h4>
+            <ul class="footer-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4 class="footer-title">Contacts</h4>
+            <ul class="footer-list">
+              <li>📍 Neon Street, 404</li>
+              <li>📞 +38 (099) 777-77-77</li>
+              <li>✉️ admin@neon.cafe</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">&copy; 2077 NEON CAFE. ALL RIGHTS RESERVED.</p>
+          <div class="system-status">
+            <span class="status-dot green"></span>
+            <span class="status-text">SYSTEM ONLINE</span>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
